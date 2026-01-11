@@ -20,6 +20,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Deploy on GitHub Pages
+
+The app is deployed on GitHub Pages. Visit: [https://kan13.github.io/Stronka/](https://kan13.github.io/Stronka/)
+
+To deploy manually:
+1. Build the project: `npm run build`
+2. The static files are in the `docs` folder.
+3. Push to GitHub and enable Pages from the `docs` folder.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
