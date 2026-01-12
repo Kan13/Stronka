@@ -37,7 +37,7 @@ export default function Page() {
       <TopBarSticky />
 
       {/* 1) Obraz 200×200 – center (stały rozmiar mieści się na mobile) */}
-      <section className="w-full flex items-center justify-center">
+      <section className="w-full flex items-center justify-center bg-white rounded-md p-4">
         <Image src="/LOGO.png" width={200} height={200} alt="Zdjęcie wyśrodkowane 200×200" className="rounded-md" />
       </section>
       <Gap size="lg" />

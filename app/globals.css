@@ -2,33 +2,27 @@
 
 /* Kolory i fonty */
 :root {
-  --background: #ffffff;
-  --foreground: #111111;
+  --background: #0a0a0a;
+  --foreground: #ededed;
   --brand: #0ea5e9;       /* niebieski akcent CTA */
   --brand-dark: #0284c7;
-  --accent: #111827;      /* ciemny nagłówek */
-  --muted: #6b7280;       /* tekst pomocniczy */
+  --accent: #0f172a;      /* ciemny nagłówek */
+  --muted: #9ca3af;       /* tekst pomocniczy */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-brand: var(--brand);
-  --color-brand-dark: var(--brand-dark);
-  --color-accent: var(--accent);
-  --color-muted: var(--muted);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Force dark overrides */
+body {
+  background: var(--background);
+  color: var(--foreground);
 }
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --accent: #0f172a;
-    --muted: #9ca3af;
-  }
+h1, h2, h3, p, div {
+  color: var(--foreground);
+}
+.bg-white {
+  background: var(--background);
+}
+.text-gray-600 {
+  color: var(--muted);
 }
 
 /* Bazowe style */
@@ -43,35 +37,21 @@ body {
 
 /* Sekcja hero */
 .hero-bg {
-  background: radial-gradient(80% 60% at 50% 10%, #e0f2fe 0%, transparent 60%),
-              linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  background: radial-gradient(80% 60% at 50% 10%, #1e293b 0%, transparent 60%),
+              linear-gradient(180deg, #0a0a0a 0%, #0f172a 100%);
 }
 
 /* Karty korzyści */
 .benefit-card {
-  border: 1px solid #e5e7eb;
+  border: 1px solid #1f2937;
   border-radius: 0.75rem;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-
-@media (prefers-color-scheme: dark) {
-  .benefit-card {
-    background: #0b0b0b;
-    border-color: #1f2937;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-  }
+  background: #0b0b0b;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 /* Sticky nagłówek */
 .header-blur {
   backdrop-filter: saturate(180%) blur(10px);
-  background: rgba(255,255,255,0.7);
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-}
-@media (prefers-color-scheme: dark) {
-  .header-blur {
-    background: rgba(10,10,10,0.6);
-    border-bottom-color: rgba(255,255,255,0.06);
-  }
+  background: rgba(10,10,10,0.6);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
