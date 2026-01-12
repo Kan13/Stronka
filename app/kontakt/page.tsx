@@ -132,8 +132,8 @@ export default function Page() {
 function TopBarSticky() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-50 header-blur">
-      <div className="flex items-center justify-between py-3">
+        <header className="">
+    <div className="flex items-center justify-between py-3">
         <div className="flex items-center gap-3">
           <Logo size={32} />
           <span className="text-base font-semibold tracking-wide">SKUP AUT 24H/7</span>
@@ -144,7 +144,7 @@ function TopBarSticky() {
           <a href="/#page-0" className="text-sm hover:text-[color:var(--color-brand)]">O Nas</a>
           <a href="/jakie-auta-kupujemy" className="text-sm hover:text-[color:var(--color-brand)]">Jakie auta kupujemy?</a>
           <a href="/obszar-dzialania" className="text-sm hover:text-[color:var(--color-brand)]">Obszar Działania</a>
-          <a href="/formularz" className="text-sm hover:text-[color:var(--color-brand)]">Formularz</a>
+          <a href="/formularz" className="text-sm hover:text-[color:var(--color-brand)]">Formularz</a>sticky top-0 z-50 header-blur
           <a href="/kontakt" className="text-sm hover:text-[color:var(--color-brand)]">Kontakt</a>
           <a href={`tel:${PHONE}`} className="px-4 py-2 rounded-md bg-[color:var(--color-brand)] text-white text-sm hover:bg-[color:var(--color-brand-dark)]">Zadzwoń: {PHONE_FMT}</a>
         </nav>
