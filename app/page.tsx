@@ -37,7 +37,7 @@ export default function Page() {
       <TopBarSticky />
 
       {/* 1) Obraz 200×200 – center (stały rozmiar mieści się na mobile) */}
-      <section className="w-full flex items-center justify-center">
+      <section className="w-full flex items-center justify-center bg-white rounded-md p-4">
         <Image src="/LOGO.png" width={200} height={200} alt="Zdjęcie wyśrodkowane 200×200" className="rounded-md" />
       </section>
       <Gap size="lg" />
@@ -432,7 +432,7 @@ function SocialBar() {
   const items = [
     { name: "Facebook", href: "https://www.facebook.com/czewa.skup.aut", icon: FacebookIcon },
     { name: "WhatsApp", href: "https://wa.me/48792905099", icon: WhatsAppIcon },
-    { name: "Gmail", href: "https://mail.google.com/mail/?view=cm&fs=1&to=zesdjecia@gmail.com", icon: GmailIcon },
+    { name: "Gmail", href: "https://mail.google.com/mail/?view=cm&fs=1&to=skupaut24hcz@gmail.com", icon: GmailIcon },
   ];
   return (
     <section className="w-full border-t border-gray-200 pt-6">

@@ -180,7 +180,7 @@ function SocialBar() {
   const items = [
     { name: "Facebook", href: "https://www.facebook.com/czewa.skup.aut", icon: FacebookIcon },
     { name: "WhatsApp", href: "https://wa.me/48792905099", icon: WhatsAppIcon },
-    { name: "Gmail", href: "https://mail.google.com/mail/?view=cm&fs=1&to=zesdjecia@gmail.com", icon: GmailIcon },
+    { name: "Gmail", href: "https://mail.google.com/mail/?view=cm&fs=1&to=skupaut24hcz@gmail.com", icon: GmailIcon },
   ];
   return (
     <section className="w-full border-t border-gray-200 pt-6">
