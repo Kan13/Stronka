@@ -14,7 +14,7 @@ export default function Page() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const body = `Imię: ${name}\nEmail: ${email}\nTelefon: ${phone}\nWiadomość: ${message}`;
-    const url = `https://mail.google.com/mail/?view=cm&fs=1&to=skuppodglad@gmail.com&su=Wiadomość z formularza&body=${encodeURIComponent(body)}`;
+    const url = `https://mail.google.com/mail/?view=cm&fs=1&to=zesdjecia@gmail.com&su=Wiadomość z formularza&body=${encodeURIComponent(body)}`;
     window.open(url, '_blank');
   };
 
@@ -132,7 +132,7 @@ function SocialBar() {
   const items = [
     { name: "Facebook", href: "https://www.facebook.com/czewa.skup.aut", icon: FacebookIcon },
     { name: "WhatsApp", href: "https://wa.me/48792905099", icon: WhatsAppIcon },
-    { name: "Gmail", href: "https://mail.google.com/mail/?view=cm&fs=1&to=skuppodglad@gmail.com", icon: GmailIcon },
+    { name: "Gmail", href: "https://mail.google.com/mail/?view=cm&fs=1&to=zesdjecia@gmail.com", icon: GmailIcon },
   ];
   return (
     <section className="w-full border-t border-gray-200 pt-6">
