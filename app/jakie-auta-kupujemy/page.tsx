@@ -49,7 +49,7 @@ W Skup Aut 24h/7 stawiamy na uczciwość, przejrzystość i zadowolenie klienta 
             </p>
           </div>
           <div className="sm:col-span-1">
-            <Image src="/2.1.png" width={300} height={200} alt="Zdjęcie 2 (300×200)" className="rounded-md" />
+            <Image src="/2.1.png" width={300} height={200} alt="Zdjęcie 2 (300×200)" className="rounded-full" />
           </div>
         </div>
       </section>

@@ -76,13 +76,13 @@ export default function Page() {
       {/* Trzy obrazy 200×200: lewa / środek / prawa */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
         <div className="flex justify-start md:justify-center">
-          <Image src="/3.0.png" width={200} height={200} alt="200×200 (lewa)" className="rounded-md" />
+          <Image src="/3.0.png" width={200} height={200} alt="200×200 (lewa)" className="rounded-full" />
         </div>
         <div className="flex justify-center">
-          <Image src="/3.1.png" width={200} height={200} alt="200×200 (środek)" className="rounded-md" />
+          <Image src="/3.1.png" width={200} height={200} alt="200×200 (środek)" className="rounded-full" />
         </div>
         <div className="flex justify-end md:justify-center">
-          <Image src="/3.2.png" width={200} height={200} alt="200×200 (prawa)" className="rounded-md" />
+          <Image src="/3.2.png" width={200} height={200} alt="200×200 (prawa)" className="rounded-full" />
         </div>
       </section>
 

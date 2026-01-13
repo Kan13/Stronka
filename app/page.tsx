@@ -38,7 +38,7 @@ export default function Page() {
 
       {/* 1) Obraz 200×200 – center (stały rozmiar mieści się na mobile) */}
       <section className="w-full flex items-center justify-center bg-white rounded-md p-4">
-        <Image src="/LOGO.png" width={200} height={200} alt="Zdjęcie wyśrodkowane 200×200" className="rounded-md" />
+        <Image src="/LOGO.png" width={200} height={200} alt="Zdjęcie wyśrodkowane 200×200" className="rounded-full" />
       </section>
       <Gap size="lg" />
 
@@ -227,15 +227,16 @@ function SectionCenteredImageFluid({
 
 /* Teksty i sekcje – jak wcześniej */
 function CenteredWelcomeText() {
-  const text = `
-Witamy w Skup Aut 24h/7 – partner, na którego możesz liczyć zawsze i wszędzie!
-Działamy 24/7 na terenie Śląska, Łódzkiego, Opolskiego i Świętokrzyskiego, oferując szybki i bezpieczny skup aut za gotówkę.
-`.trim();
+  const text = "Witamy w Skup Aut 24h/7 – partner, na którego możesz liczyć zawsze i wszędzie! Działamy 24/7 na terenie Śląska, Łódzkiego, Opolskiego i Świętokrzyskiego, oferując szybki i bezpieczny skup aut za gotówkę.";
   return (
     <section className="w-full">
-      <div className="mx-auto max-w-3xl text-center text-base md:text-lg leading-relaxed" style={{ whiteSpace: "pre-line" }}>
+      <div className="mx-auto max-w-3xl text-center text-base md:text-lg leading-relaxed">
         {text}
       </div>
+      <Gap size="lg" />
+      <section className="w-full flex items-center justify-center">
+        <Image src="/1.1.png" width={240} height={240} alt="Zdjęcie 1.1" />
+      </section>
     </section>
   );
 }
@@ -259,7 +260,7 @@ Działamy 24 godziny na dobę, 7 dni w tygodniu, a nasz zespół to pasjonaci mo
           </div>
         </div>
         <div className="sm:col-span-1">
-          <Image src="/1.5.png" width={360} height={360} alt="Zdjęcie (360×360)" className="rounded-md" />
+          <Image src="/1.5.png" width={360} height={360} alt="Zdjęcie (360×360)" className="rounded-full" />
         </div>
       </div>
     </section>
