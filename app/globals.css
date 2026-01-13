@@ -8,6 +8,7 @@
   --brand-dark: #0284c7;
   --accent: #0f172a;      /* ciemny nagłówek */
   --muted: #9ca3af;       /* tekst pomocniczy */
+  --yellow: #fbbf24;      /* jasny żółty jak icon.png */
 }
 
 /* Force dark overrides */
