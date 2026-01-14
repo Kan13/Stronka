@@ -29,7 +29,7 @@ export default function SocialBar() {
     { name: "Gmail", href: "https://mail.google.com/mail/?view=cm&fs=1&to=skupaut24hcz@gmail.com", icon: GmailIcon },
   ];
   return (
-    <section className="w-full border-t border-gray-200 pt-6">
+    <section className="w-full border-t border-[#FFFF00] pt-6">
       <h3 className="text-center text-lg font-semibold">Skontaktuj się z nami</h3>
       <div className="mt-4 flex items-center justify-center gap-4">
         {items.map((it) => (

@@ -35,7 +35,7 @@ export default function TopBarSticky() {
           <a href="/kontakt" className="text-base hover:text-[color:var(--color-brand)]">Kontakt</a>
           <a
             href={`tel:792905099`}
-            className="px-5 py-3 rounded-md bg-[color:var(--color-brand)] text-white text-base hover:bg-[color:var(--color-brand-dark)] border-2 border-[color:var(--yellow)]"
+            className="px-5 py-3 rounded-md bg-[color:var(--color-brand)] text-white text-base hover:bg-[color:var(--color-brand-dark)] border-2 border-[#FFFF00]"
           >
             Zadzwoń: 792 - 905 - 099
           </a>
